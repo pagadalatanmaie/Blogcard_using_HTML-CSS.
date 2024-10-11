@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+/* - Gray 500: hsl(0, 0%, 42%) */
+/* - Gray 950: hsl(0, 0%, 7%)  */
+        body{
+            background-color: hsl(47, 83%, 63%) ;
+        }
+        .main_container{
+            background-color: hsl(47, 83%, 63%);
+
+            /* border: 4px solid grey; */
+            margin: 30px 350px;
+            width: 50%;
+            height:660px;
+            
+
+        }
+        .main_box{
+            background-color:hsl(0, 0%, 100%);
+            border-radius: 12px;
+            box-shadow: 5px 5px black;
+            width: 45%;
+            height: 450px;
+            margin: 40px auto;
+            padding: 14px 20px;
+            border:1px solid gray ;
+
+        }
+        #img1{
+            width: 100%;
+            height: 200px;
+            border-radius: 12px;
+        }
+        h3{
+            width: 16%;
+            height: 15px;
+            font-size: 13px;
+            font-weight: bold;
+            padding: 9px 9px;
+            border-radius: 4px;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgba(239, 168, 26, 0.685);
+                    }
+        h5{
+            margin-top: -4px;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+            }
+        h2{
+                        /* width: 60%; */
+            margin-top: -8px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        section{
+            width: 50%;
+            gap: 15px;
+             display: flex;
+             justify-content:start;
+             align-items: start;
+
+        }
+        section>img{
+            width: 22%;
+            
+        }
+        section >p{
+            margin-top: 8.8px;
+                font-weight: bold;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="main_box">
+            <img src="./image.png" id="img1" alt="">
+            <h3 ><strong>Learning</strong></h3>
+            <h5>Published 21 Dec 2023</h5>
+            <h2>HTML & CSS foundations</h2>
+            <p> These languages are the backbone of every website, defining structure, content, and presentation.</p>
+            <section>
+                <img src="./image-avatar.webp" alt="">
+                <p>Greg Hooper</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
